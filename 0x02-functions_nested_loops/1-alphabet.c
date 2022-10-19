@@ -5,14 +5,14 @@ nclude "main.h"
  */
 void print_alphabet(void)
 {
-	char ch;
+	char ha;
 
-	ch = 'a';
+	ha = 'a';
 
-	while (ch <= 'z')
+	while (ha <= 'z')
 	{
-		_putchar(ch);
-		ch++;
+		_putchar(ha);
+		ha++;
 	}
 
 	_putchar('\n');
